@@ -1,0 +1,47 @@
+/* Main container */
+.main-container {
+    width: 26.4rem;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+/* Clearfix for floated elements */
+.main-container:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+/* Left div, containing cat image */
+.col-left {
+    margin-right: 1.4rem;
+    float: left;
+}
+
+/* Cat image */
+.brand-logo {
+    width: 200px;
+    height: 200px;
+    background-image: url("https://a.dilcdn.com/bl/wp-content/uploads/sites/8/2013/10/angry-cat-200x200.jpg");
+}
+
+/* Right div, containing inputs */
+.col-right {
+    margin-top: 3.4rem;
+}
+
+/* Input fields and button */
+.kitty-input,
+.kitty-btn {
+    padding: 0.25rem;
+}
+
+.kitty-input {
+    width: 188px;
+    margin-bottom: 0.5rem;
+}
+
+.kitty-btn {
+    width: 200px;
+}
