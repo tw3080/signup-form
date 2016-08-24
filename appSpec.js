@@ -14,6 +14,8 @@ describe('optIn', function() {
         scope.$digest();
     }));
     it('should render the element', function() {
-
+        expect(element.find('div').length).toBe(3);
+        expect(element.find('input').length).toBe(4);
+        expect(element.find('div').attr('class')).toEqual('col-left');
     });
 });
